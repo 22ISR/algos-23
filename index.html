@@ -23,189 +23,285 @@
         <div class="reveal">
             <div class="slides">
                 <section>
-                    <h1>Beautiful presentations</h1>
-                    <h2>New features</h2>
-                    <ul>
-                        <li>Nerd icons </li>
-                        <li>
-                            <code class="js">
-                                (inline) => code("highlighting")
-                            </code>
-                        </li>
-                        <li>Automatic QR Code generation</li>
-                        <li>and much more!</li>
-                    </ul>
-                </section>
-                <section>
-                    <h1>CUSTOM TOKYONIGHT THEME</h1>
-                    <h2 class="fragment">THAT HAS</h2>
-                    <h3 class="fragment">MULTI</h3>
-                    <h4 class="fragment">LEVEL</h4>
-                    <h5 class="fragment">HEADING</h5>
-                    <h6 class="fragment">COLORS</h6>
-                    <h6>
-                        Thanks to this project
-                        <a
-                            href="https://github.com/tcmmichaelb139/obsidian-tokyonight">
-                            
-                        </a>
-                        for the colorscheme!
-                    </h6>
-                </section>
-                <section>
-                    <section>
-                        <h1>Tailwind CSS</h1>
-                        <div class="grid grid-cols-2 gap-8">
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div>
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                            <div class="col-span-2">
-                                <h5>Lorem, ipsum.</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet consectetur
-                                    adipisicing elit. Error quod fugiat harum
-                                    modi laboriosam dignissimos, maxime
-                                    possimus? Error, nihil in.
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <h1>Custom classes</h1>
-                        <div class="grid grid-cols-3 gap-8">
-                            <div class="border-r">
-                                <h5>border-r</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-o">
-                                <h5>border-o</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                            <div class="border-y">
-                                <h5>border-y</h5>
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur
-                                    adipisicing elit. Illum, soluta!
-                                </p>
-                            </div>
-                        </div>
-                    </section>
-                </section>
-                <section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <div>
-                            Now also has Tokyo Night
-                            <code>highlight.js</code>
-                            highlighting implementation
-                        </div>
-                        <pre><code data-trim data-noescape>
-var foo = {
-    bar: function () {
-             alert("Hello, World!");
-         }
-};	
-					</code></pre>
-                    </section>
-                    <section data-auto-animate>
-                        <h1>New code highlighting!</h1>
-                        <h5>Inline code highlighting is now also supported!</h5>
-                        <p>
-                            Just wrap your code with
-                            <code>&lt;code&gt;</code>
-                            tag and get highlighting like this
-                            <code class="js">
-                                const foo = () => {return bar}
-                            </code>
-                            !
-                        </p>
-                    </section>
-                </section>
-                <section>
-                    <h1>Mermaid for beautiful diagrams!</h1>
-                    <div class="mermaid">
-                        <pre>
-						erDiagram
-    CUSTOMER ||--o{ ORDER : ""
-    CUSTOMER {
-        string name
-        string custNumber
-        string sector
-    }
-    ORDER ||--|{ LINE-ITEM : contains
-    ORDER {
-        int orderNumber
-        string deliveryAddress
-    }
-    LINE-ITEM {
-        string productCode
-        int quantity
-        float pricePerUnit
-    }
-    ORDER ||--|{ STUDENT : contains
-    STUDENT {
-        int orderNumber
-        string deliveryAddress
-    }
-						</pre
-                        >
-                    </div>
-                    <h4>
-                        Check documentation
-                        <a href="https://mermaid.js.org/config/usage.html">
-                            here
-                        </a>
-                        !
-                    </h4>
-                </section>
-                <section>
-                    <h1>Now supports Nerd font icons!</h1>
-                    <div>Nerdy project that adds icons to font itself</div>
-                    <h6>
-                        Checkout their site for icons like this
-                        <a href="https://www.nerdfonts.com/">󰖟</a>
-                        !
-                    </h6>
-                </section>
-                <section>
-                    <h1>Now supports automatic QRCode generation!</h1>
-                    <div>
-                        With GoQR you can just add data-type and alt attributes
-                        to your
-                        <code class="html">
-                            &lt;img src="https://goqr.me/" data-type="qrcode" /
-                            &gt;
-                        </code>
-                        tag!
-                    </div>
+                    <h1>Тестирование кода</h1>
                     <img
                         class="r-stretch"
-                        src="https://goqr.me/"
+                        src="https://ktkv-presentations.github.io/algos-23"
                         data-type="qrcode" />
                 </section>
                 <section>
-                    <h1>New changes on the way!</h1>
+                    <section>
+                        <h1>Тестирование</h1>
+                        <p>
+                            процесс проверки и оценки функциональности,
+                            производительности и надежности программного
+                            обеспечения с целью выявления ошибок и их устранения
+                        </p>
+                        <h4>Зачем тестировать код?</h4>
+                        <ul>
+                            <li>
+                                Обнаружение ошибок на ранних этапах разработки.
+                            </li>
+                            <li>
+                                Уверенность в том, что изменения не нарушили
+                                существующий функционал.
+                            </li>
+                            <li>
+                                Повышение качества программного обеспечения.
+                            </li>
+                            <li>
+                                Удовлетворенность пользователей: приложение
+                                работает так, как ожидается.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Типы тестирования программного обеспечения</h1>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>Модульное тестирование</h4>
+                                <p>
+                                    Проверка отдельных функций или компонентов
+                                    программы
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Интеграционное тестирование</h4>
+                                <p>
+                                    Проверка взаимодействия между компонентами
+                                    системы
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Системное тестирование</h4>
+                                <p>
+                                    Проверка всей системы в целом на
+                                    соответствие требованиям и ожиданиям
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>Приемочное тестирование</h4>
+                                <p>
+                                    Проверка программного обеспечения с точки
+                                    зрения конечного пользователя
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>
+                            Модуль
+                            <code class="python">unittest</code>
+                        </h1>
+                        <p>
+                            встроенная библиотека для написания и запуска тестов
+                            в Python
+                        </p>
+                        <pre><code data-trim class="python">
+import unittest
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Тест кейс</h1>
+                        <p>
+                            набор условий и шагов, которые определяют, как
+                            следует проверять конкретную функциональность
+                            программы, а также ожидаемый результат
+                        </p>
+                        <h4>Состоит из:</h4>
+                        <ul>
+                            <li>Описание тестируемой функции</li>
+                            <li>Входные данные</li>
+                            <li>Шаги выполнения</li>
+                            <li>Ожидаемый результат</li>
+                            <li>Реальный результат</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Тестовые случаи</h1>
+                        <h4><code class="python">TestCase</code></h4>
+                        <p>который используется для группировки тестов</p>
+                        <em>
+                            Каждое тестовое задание внутри этого класса
+                            представляет собой проверку какого-то фрагмента кода
+                        </em>
+                        <pre><code data-trim class="python">
+import unittest
+
+class MyTestCase(unittest.TestCase):
+    def test_addition(self):
+        self.assertEqual(2 + 2, 4)
+
+    def test_subtraction(self):
+        self.assertEqual(5 - 3, 2)
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Тестовые методы</h1>
+                        <p>
+                            Методы класса
+                            <code class="python">TestCase</code>
+                            , начинающиеся с префикса
+                            <code>test_</code>
+                            , которые и выполняются как тесты
+                        </p>
+                        <pre><code data-trim class="python">
+import unittest
+
+class MyTestCase(unittest.TestCase):
+    def test_addition(self):
+        self.assertEqual(2 + 2, 4)
+
+    def test_subtraction(self):
+        self.assertEqual(5 - 3, 2)
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Методы утверждений (assertions)</h1>
+                        <p>
+                            Используются для проверки корректности работы кода
+                        </p>
+                        <ul>
+                            <li>
+                                <code>assertEqual(a, b)</code>
+                                — проверяет, равны ли значения a и b.
+                            </li>
+                            <li>
+                                <code>assertTrue(x)</code>
+                                — проверяет, что выражение x истинно.
+                            </li>
+                            <li>
+                                <code>assertFalse(x)</code>
+                                — проверяет, что выражение x ложно.
+                            </li>
+                            <li>
+                                <code>assertRaises(exception, func)</code>
+                                — проверяет, что функция func вызывает
+                                исключение exception.
+                            </li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h1>Запуск тестов</h1>
+                        <p>
+                            Тесты можно запускать с помощью команды
+                            <code class="python">unittest.main()</code>
+                            , которая автоматически находит все методы с
+                            префиксом
+                            <code>test_</code>
+                            и запускает их
+                        </p>
+                        <pre><code data-trim class="bash">
+python -m unittest test_module.py
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <section>
+                        <h1>Работа с данными</h1>
+                        <p>
+                            <code>unittest</code>
+                            предоставляет два метода, которые могут быть полезны
+                            для подготовки тестов и очистки после их выполнения
+                        </p>
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="border-b">
+                                <h4>
+                                    <code>setUp()</code>
+                                </h4>
+                                <p>
+                                    используется для подготовки данных или
+                                    состояний, необходимых для выполнения теста
+                                </p>
+                            </div>
+                            <div class="border-b">
+                                <h4>
+                                    <code>tearDown()</code>
+                                </h4>
+
+                                <p>
+                                    используется для очистки ресурсов, например,
+                                    закрытия соединений с базой данных
+                                </p>
+                            </div>
+                        </div>
+                        <pre class="r-stretch"><code class="python">
+import unittest
+
+class MyTestCase(unittest.TestCase):
+    def setUp(self):
+        self.test_data = [1, 2, 3]
+    
+    def tearDown(self):
+        self.test_data = None
+    
+    def test_sum(self):
+        self.assertEqual(sum(self.test_data), 6)
+                        </code></pre>
+                    </section>
+                    <section>
+                        <h1>Запуск тестов</h1>
+                        <h4><code class="python">unittest.main()</code></h4>
+                        <p>
+                            метод автоматически найдет все тестовые методы в
+                            вашем классе и выполнит их
+                        </p>
+                        <pre><code data-trim class="python">
+if __name__ == '__main__':
+    unittest.main()
+                        </code></pre>
+                    </section>
+                </section>
+                <section>
+                    <h1>Пример использования реальной функции</h1>
+                    <pre><code data-trim class="python">
+def add_numbers(numbers):
+    return sum(numbers)
+                    </code></pre>
+                    <pre
+                        class="r-stretch"><code data-trim data-line-numbers class="python">
+import unittest
+from my_module import add_numbers
+
+class AddNumbersTestCase(unittest.TestCase):
+    def test_add_positive_numbers(self):
+        self.assertEqual(add_numbers([1, 2, 3]), 6)
+
+    def test_add_empty_list(self):
+        self.assertEqual(add_numbers([]), 0)
+
+    def test_add_mixed_numbers(self):
+        self.assertEqual(add_numbers([-1, 1, 2]), 2)
+
+    def test_add_large_numbers(self):
+        self.assertEqual(add_numbers([1000000, 2000000]), 3000000)
+                    </code></pre>
+                </section>
+                <section>
+                    <section>
+                        <h1>Структура вывода результатов</h1>
+                        <p>
+                            При запуске тестов с помощью unittest, результаты
+                            тестирования выводятся в консоль.
+                        </p>
+                        <ul>
+                            <li>
+                                <code>.</code>
+                                — тест прошел успешно.
+                            </li>
+                            <li>
+                                <code>F</code>
+                                — тест не прошел (неудача).
+                            </li>
+                            <li>
+                                <code>E</code>
+                                — возникла ошибка (исключение во время
+                                выполнения теста)
+                            </li>
+                        </ul>
+                    </section>
                 </section>
             </div>
         </div>
@@ -396,4 +492,3 @@ var foo = {
         </script>
     </body>
 </html>
-
